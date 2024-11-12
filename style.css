@@ -18,3 +18,10 @@ svg {
   display: inline-block;
   height: 100%;
 }
+
+.scroll-me {
+  font-size: 6rem;
+  position: relative;
+  color: gold;
+  text-align: center;
+}
