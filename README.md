@@ -58,8 +58,11 @@
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Basic SVG scroll on black background. 
+- [x] Basic SVG scroll on black background. 
+  - [ ] Adjust squiggles at the top to initials.
+  - [ ] fix entrance to fish to lessen the sharp corner. 
 - [ ] Add three.js with 3D tea cups.
+- [ ] Add colored background to logo as or after it draws.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
