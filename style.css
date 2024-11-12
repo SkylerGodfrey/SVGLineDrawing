@@ -1,24 +1,7 @@
 body {
-  height: 1000vh;
+  height: 500vh;
   margin: 0;
-}
-
-
-
-.scroll-me {
-  position: absolute;
-  top: 0;
-  left: 0;
-  border-radius: 50%;
-  pointer-events: none;
-}
-
-.scroll-me img {
-  position: relative;
-  width: 200%;
-  height: 200%;
-  top: 0;
-  left: 0;
+  background-color: rgba(0, 0, 0, 0.842);
 }
 
 .line-container {
@@ -32,16 +15,6 @@ body {
 }
 
 svg {
-  position: absolute;  /* Absolute positioning to overlay all SVGs */
-  top: 0;
-  left: 0;
-  width: 100%;  /* Ensures the SVGs scale to the container's width */
-  height: 100%; /* Ensures the SVGs scale to the container's height */
-  display: block;  /* Removes extra space at the bottom */
-}
-
-/* Optional: If you need to adjust stacking order, use z-index */
-.line-container svg:nth-child(2) {
-  z-index: -1; /* This makes the second SVG appear behind the first one */
-  left: -15.5%;
+  display: inline-block;
+  height: 100%;
 }
